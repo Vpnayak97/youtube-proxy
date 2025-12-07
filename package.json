@@ -14,10 +14,10 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3"
   },
-  "engines": {
-    "node": "18.x"
-  }
-  "scripts": {
+   "engines": {
+    "node": "18.x",
+    "python": "3.11.0"
+  }, "scripts": {
     "prestart": "pip install -r requirements.txt",
     "start": "node server.js"
   }
